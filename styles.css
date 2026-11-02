@@ -1,0 +1,128 @@
+/** Google Fonts for headings and body text **/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color: #f4f7fa; /** light blue gray background **/
+color: #2b2b2b;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+
+/** Header at the top of the page **/
+#header {
+background-color: #1f3a5f; /** navy blue **/
+text-align: center;
+padding: 40px 20px;
+}
+
+h1 {
+font-family: 'Playfair Display', serif;
+color: #f2b33d; /** gold **/
+font-size: 48px;
+margin: 0;
+}
+
+.subtitle {
+color: white;
+margin: 5px 0 0 0;
+}
+
+/** Each section of the page **/
+.section {
+max-width: 800px;
+margin: 30px auto;
+padding: 0 20px;
+}
+
+h2 {
+font-family: 'Playfair Display', serif;
+color: #1f3a5f;
+border-bottom: 2px solid #f2b33d;
+padding-bottom: 5px;
+}
+
+h3 {
+color: #1f3a5f;
+margin: 8px 0 4px 0;
+font-size: 18px;
+}
+
+/** Team member cards side by side **/
+#members {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+}
+
+.member {
+background-color: white;
+width: 230px;
+padding: 15px;
+text-align: center;
+border-top: 4px solid #f2b33d;
+border-radius: 6px;
+}
+
+.member img {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+background-color: #dde4ec; /** gray circle shows until a photo is added **/
+}
+
+.member p {
+font-size: 14px;
+margin: 0 0 10px 0;
+}
+
+/** Pictures side by side **/
+#pictures {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.picture {
+width: 250px;
+text-align: center;
+}
+
+.picture img {
+width: 250px;
+height: 165px;
+object-fit: cover;
+border-radius: 6px;
+}
+
+.picture p {
+margin: 5px 0 0 0;
+color: #555555;
+}
+
+/** Project boxes **/
+.project {
+background-color: white;
+border-left: 4px solid #1f3a5f;
+padding: 10px 15px;
+margin-bottom: 12px;
+}
+
+.project h3 {
+margin-top: 0;
+}
+
+.project p {
+margin: 0;
+}
+
+/** Link styling **/
+a {
+color: #1f3a5f;
+font-weight: 600;
+}
