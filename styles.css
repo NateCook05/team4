@@ -1,10 +1,6 @@
 /** Google Fonts for headings and body text **/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap');
 
-* {
-box-sizing: border-box;
-}
-
 body {
 background-color: #f4f7fa; /** light blue gray background **/
 color: #2b2b2b;
@@ -61,7 +57,7 @@ justify-content: center;
 
 .member {
 background-color: white;
-width: 230px;
+width: 200px;
 padding: 15px;
 text-align: center;
 border-top: 4px solid #f2b33d;
